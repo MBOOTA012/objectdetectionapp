@@ -7,8 +7,8 @@ from ultralytics import YOLO
 model = YOLO('yolo11n.pt')  # or 'runs/detect/train/weights/best.pt'
 
 # Streamlit UI
-st.title("🧠 YOLOv8 Object Detection App")
-st.markdown("Upload an image and detect objects using a trained YOLOv8 model.")
+st.title("🧠 YOLO11n Object Detection App")
+st.markdown("Upload an image and detect objects using a trained YOLO11n model.")
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
